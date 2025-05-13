@@ -172,42 +172,70 @@
 						</ul>
 					</section>
 
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>Contact Me </p>
-						<div class="row">
-							<div class="col-8 col-12-small">
-								<form method="post" action="#">
-									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-									</div>
-								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</div>
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Location</span></h3>
-										CANADA<br />
-										
-									</li>
-									<li>
-										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
-										+1(437)557-7833 <br> Text
-									</li>
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="#">Lelyan94@outlook.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
+				<!-- Contact Section -->
+<section id="three">
+    <h2>Get In Touch</h2>
+    <p>If you'd like to connect, feel free to reach out:</p>
+
+    <style>
+        .contact-inline {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+
+        .separator {
+            color: #888;
+            padding: 0 10px;
+        }
+
+        .contact-item i {
+            margin-right: 5px;
+            color: #555;
+        }
+
+        @media (max-width: 600px) {
+            .contact-inline {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .separator {
+                display: none;
+            }
+        }
+    </style>
+
+    <div class="contact-inline">
+        <div class="contact-item">
+            <i class="fas fa-home"></i> Canada
+        </div>
+        <span class="separator">|</span>
+        <div class="contact-item">
+            <i class="fas fa-mobile-alt"></i> +1 (437) 557-7833 <small>(Text Preferred)</small>
+        </div>
+        <span class="separator">|</span>
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:Lelyan94@outlook.com">Lelyan94@outlook.com</a>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
 
 				
 
