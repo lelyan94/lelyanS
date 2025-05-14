@@ -1,33 +1,27 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Lelyan Saadeh – Portfolio Website
 
+Welcome to my personal portfolio website!  
+This site showcases my work, skills, and experience as an IT professional with a focus on IT support, web development, system administration, and cloud technologies.
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+## 🔧 Built With
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+- HTML5 / CSS3 / JavaScript
+- Responsive design
+- Custom modifications on top of a minimalist template
 
-(* = Not included)
+## 📁 Features
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+- Professional overview of my background
+- Work experience and technical skills
+- Projects and personal achievements
+- Responsive layout for all devices
 
-AJ
-aj@lkn.io | @ajlkn
+## 🚀 Live Site
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+[Visit My Portfolio](https://your-portfolio-link.com)
 
+## 📌 Credits
 
-Credits:
+This site design is based on the **Strata** template by [HTML5 UP](https://html5up.net), licensed under [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/).
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Icons by [Font Awesome](https://fontawesome.io)  
