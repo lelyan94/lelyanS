@@ -1,0 +1,251 @@
+/* Global Styles */
+body {
+    color: #4f4c47;
+}
+
+/* Header Styles */
+.image.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 24px 40px;
+    width: 180px;
+    height: 180px;
+    margin-left: 140px; border-radius: 65%; transform: translateX(70%);
+}
+
+
+.image.avatar img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    align-items: center;
+}
+
+/* Typography */
+h1 strong {
+    display: block;
+}
+
+h1 span {
+    display: block;
+}
+
+h1 span:first-of-type {
+    font-size: 1.3em;
+}
+
+h1 span:last-of-type {
+    font-size: 0.6em;
+}
+
+/* Section Headers */
+.section-header {
+    text-align: center;
+}
+
+.section-header span {
+    font-size: 0.6em;
+    display: block;
+    letter-spacing: 1px;
+}
+
+/* Card Styles */
+.card {
+    background-image: url('images/thumbs/01.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Work Experience Cards */
+.work-card {
+    width: 80%;
+    max-width: 800px;
+    min-height: 410px;
+    padding: 40px;
+    margin: 30px auto;
+}
+
+.work-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.work-card h4 {
+    margin: 0 0 15px;
+    font-size: 1em;
+    font-weight: normal;
+    color: #f0f0f0;
+}
+
+.work-card p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* Skills Cards */
+.skills-card {
+    height: auto;
+    min-height: 190px;
+}
+
+.skills-card h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #3d3721;
+}
+
+/* Arrow Animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.icon.fa-arrow-down {
+    color: #de8a15;
+    font-size: 30px;
+    animation: bounce 1s infinite;
+}
+
+.icon.fa-arrow-down:hover {
+    color: #e74c3c;
+}
+
+/* Work Section */
+#work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+/* Text Colors */
+.highlight {
+    color: #71532a;
+    font-weight: bold;
+}
+
+.light-text {
+    color: rgb(219, 216, 216);
+}
+
+/* Education Cards */
+.education-card {
+    height: 160px;
+    padding: 30px;
+    overflow: hidden;
+
+}
+
+.education-card p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.education-card strong {
+    color: #ffffff;
+}
+
+.project-card {
+    width: 280px;
+    height: 310px;
+    padding: 24px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: #1a1a1a !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    color: #fff !important;
+    background-image: none !important;
+}
+
+.project-card * {
+    color: #fff !important;
+}
+
+.project-card .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.project-card .image-container img {
+    max-width: 100%;
+    width: 190px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.project-title {
+    font-size: 2.15em;
+    text-align: center;
+    margin-bottom: 6px;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.button {
+    min-width: 100px;
+    font-size: 0.95em;
+    padding: 4px 12px;
+    background: #937575 !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s, color 0.2s;
+}
+
+
+
+.button:hover:not(.disabled) {
+    background: #7a5e5e !important;
+    color: #fff !important;
+}
+
+.button.disabled, .button:disabled {
+    background: #cccccc !important;
+    color: #666 !important;
+    cursor: not-allowed;
+} 
+
